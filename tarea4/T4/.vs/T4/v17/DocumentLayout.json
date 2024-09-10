@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gui\\Desktop\\bs\\tarea4\\T4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B26FA3CD-1B76-4D2B-A020-8CEF1E22A884}|T4\\T4.csproj|c:\\users\\gui\\desktop\\bs\\tarea4\\t4\\t4\\modelo\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26FA3CD-1B76-4D2B-A020-8CEF1E22A884}|T4\\T4.csproj|solutionrelative:t4\\modelo\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26FA3CD-1B76-4D2B-A020-8CEF1E22A884}|T4\\T4.csproj|c:\\users\\gui\\desktop\\bs\\tarea4\\t4\\t4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26FA3CD-1B76-4D2B-A020-8CEF1E22A884}|T4\\T4.csproj|solutionrelative:t4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\gui\\Desktop\\bs\\tarea4\\T4\\T4\\Modelo\\Libro.cs",
+              "RelativeDocumentMoniker": "T4\\Modelo\\Libro.cs",
+              "ToolTip": "C:\\Users\\gui\\Desktop\\bs\\tarea4\\T4\\T4\\Modelo\\Libro.cs",
+              "RelativeToolTip": "T4\\Modelo\\Libro.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T11:32:59.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gui\\Desktop\\bs\\tarea4\\T4\\T4\\Program.cs",
+              "RelativeDocumentMoniker": "T4\\Program.cs",
+              "ToolTip": "C:\\Users\\gui\\Desktop\\bs\\tarea4\\T4\\T4\\Program.cs",
+              "RelativeToolTip": "T4\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T11:31:44.397Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
