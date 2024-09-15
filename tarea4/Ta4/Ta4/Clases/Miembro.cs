@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ta4.Clases
 {
+    // clase de Miembro
     internal class Miembro
     {
         public int IdMiembro { get; set; }
@@ -14,7 +15,7 @@ namespace Ta4.Clases
         public DateTime? FechaRegistro { get; set; }
         public MembresiaEnum? TipoMembresia { get; set; }
 
-        public Miembro(int id, string nombre, string apellido, DateTime fechRegistro, MembresiaEnum tipoMem)
+        public Miembro(int id, string nombre, string apellido, DateTime fechRegistro, MembresiaEnum tipoMem)  // constructor para mostrar datos
         {
             IdMiembro = id;
             Nombre = nombre;
@@ -23,7 +24,7 @@ namespace Ta4.Clases
             TipoMembresia = tipoMem;
         }
 
-        public Miembro(string nombre, string apellido, MembresiaEnum tipoMem)
+        public Miembro(string nombre, string apellido, MembresiaEnum tipoMem)       // constructor para almacenar datos
         {
             Nombre = nombre;
             Apellido = apellido;
@@ -31,7 +32,7 @@ namespace Ta4.Clases
             TipoMembresia = tipoMem;
         }
 
-        public Miembro(string? nombre, string? apellido, DateTime? fechRegistro, MembresiaEnum? tipoMem)
+        public Miembro(string? nombre, string? apellido, DateTime? fechRegistro, MembresiaEnum? tipoMem)     // constructor para actualizar datos
         {
             Nombre = nombre;
             Apellido = apellido;

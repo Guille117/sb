@@ -9,8 +9,11 @@ using Ta4.Clases;
 
 namespace Ta4.Repositorios
 {
+
+    // esta clase contiene todos los métodos necesarios para manipular una base de datos
     internal class LibroRepository
     {
+        // cadena de conexión
         string cadenaConexion = "Data Source=DESKTOP-VILJA9B\\SQLEXPRESS;" +
             "Initial Catalog=BibliotecaDB;" +
             "User=sa;" +
@@ -18,6 +21,7 @@ namespace Ta4.Repositorios
 
         public void guardarLibro(Libro lib)
         {
+            // creamos una consulta como cadena de caracteres
             string consultaCadena = "Insert into Libros(Titulo, Autor, Año_Publicacion, Genero)" +
                 " values (@titulo, @autor, @añoPu, @genero)";
 
@@ -27,6 +31,7 @@ namespace Ta4.Repositorios
 
                 conexion.Open();
 
+                // pasamos parametros
                 consulta.Parameters.AddWithValue("@titulo", lib.Titulo);
                 consulta.Parameters.AddWithValue("@autor", lib.Autor);
                 consulta.Parameters.AddWithValue("@añoPu", lib.AñoPublicacion);

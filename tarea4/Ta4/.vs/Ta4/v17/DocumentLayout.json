@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\gui\\Desktop\\bs\\tarea4\\Ta4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48E6CFF5-50D4-498B-8310-E8F4450E6E21}|Ta4\\Ta4.csproj|c:\\users\\gui\\desktop\\bs\\tarea4\\ta4\\ta4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48E6CFF5-50D4-498B-8310-E8F4450E6E21}|Ta4\\Ta4.csproj|solutionrelative:ta4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48E6CFF5-50D4-498B-8310-E8F4450E6E21}|Ta4\\Ta4.csproj|c:\\users\\gui\\desktop\\bs\\tarea4\\ta4\\ta4\\controladores\\controladormiembro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E6CFF5-50D4-498B-8310-E8F4450E6E21}|Ta4\\Ta4.csproj|solutionrelative:ta4\\controladores\\controladormiembro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48E6CFF5-50D4-498B-8310-E8F4450E6E21}|Ta4\\Ta4.csproj|c:\\users\\gui\\desktop\\bs\\tarea4\\ta4\\ta4\\clases\\miembro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48E6CFF5-50D4-498B-8310-E8F4450E6E21}|Ta4\\Ta4.csproj|solutionrelative:ta4\\clases\\miembro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48E6CFF5-50D4-498B-8310-E8F4450E6E21}|Ta4\\Ta4.csproj|c:\\users\\gui\\desktop\\bs\\tarea4\\ta4\\ta4\\repositorios\\miembrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48E6CFF5-50D4-498B-8310-E8F4450E6E21}|Ta4\\Ta4.csproj|solutionrelative:ta4\\repositorios\\miembrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48E6CFF5-50D4-498B-8310-E8F4450E6E21}|Ta4\\Ta4.csproj|c:\\users\\gui\\desktop\\bs\\tarea4\\ta4\\ta4\\repositorios\\librorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48E6CFF5-50D4-498B-8310-E8F4450E6E21}|Ta4\\Ta4.csproj|solutionrelative:ta4\\repositorios\\librorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48E6CFF5-50D4-498B-8310-E8F4450E6E21}|Ta4\\Ta4.csproj|c:\\users\\gui\\desktop\\bs\\tarea4\\ta4\\ta4\\clases\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48E6CFF5-50D4-498B-8310-E8F4450E6E21}|Ta4\\Ta4.csproj|solutionrelative:ta4\\clases\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48E6CFF5-50D4-498B-8310-E8F4450E6E21}|Ta4\\Ta4.csproj|c:\\users\\gui\\desktop\\bs\\tarea4\\ta4\\ta4\\controladores\\controladorlibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E6CFF5-50D4-498B-8310-E8F4450E6E21}|Ta4\\Ta4.csproj|solutionrelative:ta4\\controladores\\controladorlibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,87 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gui\\Desktop\\bs\\tarea4\\Ta4\\Ta4\\Program.cs",
-              "RelativeDocumentMoniker": "Ta4\\Program.cs",
-              "ToolTip": "C:\\Users\\gui\\Desktop\\bs\\tarea4\\Ta4\\Ta4\\Program.cs",
-              "RelativeToolTip": "Ta4\\Program.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAAA0AAAA1AAAA",
+              "Title": "ControladorMiembro.cs",
+              "DocumentMoniker": "C:\\Users\\gui\\Desktop\\bs\\tarea4\\Ta4\\Ta4\\Controladores\\ControladorMiembro.cs",
+              "RelativeDocumentMoniker": "Ta4\\Controladores\\ControladorMiembro.cs",
+              "ToolTip": "C:\\Users\\gui\\Desktop\\bs\\tarea4\\Ta4\\Ta4\\Controladores\\ControladorMiembro.cs",
+              "RelativeToolTip": "Ta4\\Controladores\\ControladorMiembro.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwAwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T04:31:07.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MiembroRepository.cs",
-              "DocumentMoniker": "C:\\Users\\gui\\Desktop\\bs\\tarea4\\Ta4\\Ta4\\Repositorios\\MiembroRepository.cs",
-              "RelativeDocumentMoniker": "Ta4\\Repositorios\\MiembroRepository.cs",
-              "ToolTip": "C:\\Users\\gui\\Desktop\\bs\\tarea4\\Ta4\\Ta4\\Repositorios\\MiembroRepository.cs",
-              "RelativeToolTip": "Ta4\\Repositorios\\MiembroRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAALkAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T06:20:13.554Z",
+              "WhenOpened": "2024-09-14T13:24:35.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Miembro.cs",
-              "DocumentMoniker": "C:\\Users\\gui\\Desktop\\bs\\tarea4\\Ta4\\Ta4\\Clases\\Miembro.cs",
-              "RelativeDocumentMoniker": "Ta4\\Clases\\Miembro.cs",
-              "ToolTip": "C:\\Users\\gui\\Desktop\\bs\\tarea4\\Ta4\\Ta4\\Clases\\Miembro.cs",
-              "RelativeToolTip": "Ta4\\Clases\\Miembro.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAAA4AAAAdAAAA",
+              "Title": "ControladorLibro.cs",
+              "DocumentMoniker": "C:\\Users\\gui\\Desktop\\bs\\tarea4\\Ta4\\Ta4\\Controladores\\ControladorLibro.cs",
+              "RelativeDocumentMoniker": "Ta4\\Controladores\\ControladorLibro.cs",
+              "ToolTip": "C:\\Users\\gui\\Desktop\\bs\\tarea4\\Ta4\\Ta4\\Controladores\\ControladorLibro.cs",
+              "RelativeToolTip": "Ta4\\Controladores\\ControladorLibro.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T06:13:49.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Libro.cs",
-              "DocumentMoniker": "C:\\Users\\gui\\Desktop\\bs\\tarea4\\Ta4\\Ta4\\Clases\\Libro.cs",
-              "RelativeDocumentMoniker": "Ta4\\Clases\\Libro.cs",
-              "ToolTip": "C:\\Users\\gui\\Desktop\\bs\\tarea4\\Ta4\\Ta4\\Clases\\Libro.cs",
-              "RelativeToolTip": "Ta4\\Clases\\Libro.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAACMAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T04:15:31.833Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "22e02530-3491-4db6-b44f-053862f0e1bc",
-        "Display": 0,
-        "X": 868,
-        "Y": -49,
-        "Width": 1328,
-        "Height": 653,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LibroRepository.cs",
-              "DocumentMoniker": "C:\\Users\\gui\\Desktop\\bs\\tarea4\\Ta4\\Ta4\\Repositorios\\LibroRepository.cs",
-              "RelativeDocumentMoniker": "Ta4\\Repositorios\\LibroRepository.cs",
-              "ToolTip": "C:\\Users\\gui\\Desktop\\bs\\tarea4\\Ta4\\Ta4\\Repositorios\\LibroRepository.cs",
-              "RelativeToolTip": "Ta4\\Repositorios\\LibroRepository.cs",
-              "ViewState": "AQIAALQAAAAAAAAAAAAAAMIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T04:17:05.305Z",
+              "WhenOpened": "2024-09-14T13:24:34.589Z",
               "EditorCaption": ""
             }
           ]

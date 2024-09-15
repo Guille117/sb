@@ -9,7 +9,8 @@ using Ta4.Clases;
 namespace Ta4.Repositorios
 {
     internal class MiembroRepository
-    {
+    {       
+        // conexión como cadena de caracteres
         string conexionCadena = "Data Source=DESKTOP-VILJA9B\\SQLEXPRESS;" +
             "Initial Catalog=BibliotecaDB;" +
             "User=sa;" +
@@ -28,6 +29,7 @@ namespace Ta4.Repositorios
 
                 conectar.Open();
 
+                // pasamos argumentos
                 consulta.Parameters.AddWithValue("@nom", m.Nombre);
                 consulta.Parameters.AddWithValue("@ape", m.Apellido);
                 consulta.Parameters.AddWithValue("@registro", m.FechaRegistro);
@@ -109,6 +111,8 @@ namespace Ta4.Repositorios
         public void actualizarMiembro(Miembro m, int id) {
 
             bool aux = false;
+
+            // creamos una consulta por partes para, agregar datos según el usuario pida los datos a modificar
             StringBuilder consultaCadena = new StringBuilder("update Miembros set ");
 
             using (SqlConnection conectar = new SqlConnection(conexionCadena))

@@ -1,5 +1,8 @@
-﻿using Ta4.Clases;
+﻿using System.Security.Cryptography.X509Certificates;
+using Ta4.Clases;
+using Ta4.Controladores;
 using Ta4.Repositorios;
+using Ta4.Utilidades;
 
 namespace Ta4
 {
@@ -7,88 +10,38 @@ namespace Ta4
     {
         static void Main(string[] args)
         {
-            LibroRepository libRepo = new LibroRepository();
+            // instanciar objetos de controladores
+            ControladorLibro controlLibro = new ControladorLibro();
+            ControladorMiembro controlMiembro = new ControladorMiembro();
 
-            // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+            // menú de opciones para mostrar al usuario
+            int op = 0;
+            int menu()
+            {
+                int x = 10, y = 4;
+                Console.Clear();
 
-            // inicio de operaciones cruud para libro
-            /* Guardar libro
-             Libro lib = new Libro("20 Días sin ti", "Luisa Costa", 2007, "Romántica");
-            libRepo.guardarLibro(lib);*/
+                Console.SetCursorPosition(x, y); Console.WriteLine("----- Menu de opciones  -----");
+                y += 2; x += 8;
+                Console.SetCursorPosition(x, y++); Console.WriteLine("Libro.");
+                Console.SetCursorPosition(x, y++); Console.WriteLine("Miembros.");
+                Console.SetCursorPosition(x, y++); Console.WriteLine("Salir.");
+                op = Uti.navegador(x, y, 3);
 
-            // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-            /*Mostrar libro
-            List<Libro> libs = libRepo.mostrarLibros();
-            foreach (Libro l in libs) { 
-                Console.Write(l.IdLibro + "   ");
-                Console.Write(l.Titulo + "   ");
-                Console.Write(l.Autor + "   ");
-                Console.Write(l.AñoPublicacion + "   ");
-                Console.Write(l.Genero + "   ");
-                Console.Write(l.Disponibilidad + "   ");
-                Console.WriteLine();
+                return op;
             }
-            */
 
-            // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-            /* eliminar libro
-            libRepo.eliminarLibro(9);
-            */
-
-            // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-            /* para actualizar, dato que no se desea actualizar se envia como null
-            Libro libroActualizar = new Libro(null, null, null, null, null);
-            libRepo.actualizarLibro(libroActualizar, 8);
-            */
-
-            // fin de operaciones crud para libro
-
-            //{-----------------------------------------------------------------------------------------------------------------
-
-            // inicio de operaciones crud para miembro
-
-            MiembroRepository miembroRepo = new MiembroRepository();
-
-            //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
-            /* guardar miembro 
-            Miembro m = new Miembro("Lucas", "Herrera", (MembresiaEnum)0);
-            miembroRepo.guardarMiembro(m);*/
-
-            // nota: en el ultimo parametro el solo pueden ir tres opciones de 0 a 2 y "(MembresiaEnum) es obligatorio lo que varia es el número que lo acompaña"
-            // o puede ir el nombre de una variable que contenga de 0 a 2
-
-            //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
-            /*mostrar miembros
-            List<Miembro> miembros = miembroRepo.mostrarMiembro();
-            foreach (Miembro m in miembros) {
-                Console.Write(m.IdMiembro + "   ");
-                Console.Write(m.Nombre + "   ");
-                Console.Write(m.Apellido + "   ");
-                Console.Write(m.FechaRegistro + "   ");
-                Console.Write(m.TipoMembresia + "   ");
-                Console.WriteLine();
-            }*/
-
-            //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
-            /* Eliminar miembro
-            miembroRepo.eliminarMiembro(2);
-            */
-
-            //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
-            /*Actualizar meimbro
-            DateTime fecha = new DateTime(2024, 09, 11);  // si se quiere cambiar una fecha 
-            Miembro m = new Miembro(null, null, fecha, null);
-            miembroRepo.actualizarMiembro(m, 3);*/
-
-            // fin de operaciones crud para miembro
-
+            // menú de acciones
+            do
+            {
+                op = menu();
+                switch (op)
+                {
+                    case 1: controlLibro.iniciar(); break;
+                    case 2: controlMiembro.iniciar(); break;
+                    case 3: Console.Clear(); Console.WriteLine("\n\n\n           Fin de programa...\n\n\n"); break;
+                }
+            } while (op != 3);
         }
     }
 }
