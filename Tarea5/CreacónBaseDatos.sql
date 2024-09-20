@@ -3,7 +3,7 @@
 create database tarea5;
 use tarea5;
 
--- creación de tabla libros, la disponibilidad tendra un valor por default de disponible(true)
+-- creación de tabla libros, la disponibilidad tendrá un valor por default de disponible(true)
 create table Libros(
 ID_Libro int primary key identity, 
 Titulo nvarchar(100) not null,
@@ -23,15 +23,26 @@ Teléfono int unique not null,
 Fecha_Registro datetime not null default(getdate())
 );
 
--- Creación de tabla miembros, tendra dos llaves foraneas (libro y miembro) y la fecha del prestamo por 
+-- Creación de tabla Prestamos, tendra dos llaves foraneas (libro y miembro) y la fecha del prestamo por 
 -- default será la fecha actual.
 create table Prestamos(
 ID_Prestamo int primary key identity,
 ID_Libro int references Libros(ID_Libro),
 ID_Miembro int references Miembros(Id_Miembro),
 Fecha_Prestamo datetime not null default(getdate()), 
-Fecha_Devolucion datetime not null
+Fecha_Devolucion datetime not null,
+Estado bit not null default(1)
 );
 
-drop database tarea5
-use master
+--  Creación de índices para cada tabla
+-- Libros
+create index indexLibro on Libros(ID_Libro);
+
+-- Miembros
+create index indexMiembro on Miembros(ID_Miembro);
+
+-- Prestamos
+create index indexPrestamos on Prestamos(ID_Prestamo);
+
+
+use tarea5;
